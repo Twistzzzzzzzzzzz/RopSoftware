@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="474fc4b1-50fd-4972-a9a4-0563ed23a47e" name="更改" comment="Demo 1 For login and Profile Page" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2mHXHdSZNZMEz5y63spOsQ9UluH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.App.executor": "Run",
+    "Python.App_model.executor": "Run",
+    "Python.Run_app.executor": "Run",
+    "Python.logic.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.main2.executor": "Run",
+    "Python.run_App.executor": "Run",
+    "Python.run_Test.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "deletionFromPopupRequiresConfirmation": "false",
+    "git-widget-placeholder": "RopSoftware",
+    "last_opened_file_path": "C:/Users/Twistzz/anaconda3/envs/RopSoftWare/python.exe",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.externalTools",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\DaChuang_project\DaChuang_App\Resource\Picture" />
+      <recent name="E:\DaChuang_project\DaChuang_App\model" />
+      <recent name="E:\DaChuang_project\DaChuang_App\model\Pre_processing" />
+      <recent name="E:\DaChuang_project\DaChuang_App\ui" />
+      <recent name="E:\DaChuang_project\DaChuang_App\UI" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Twistzz\Desktop\大创\DaChuang_App\ui\picture" />
+      <recent name="E:\DaChuang_project\DaChuang_App\Resource\Picture" />
+      <recent name="E:\DaChuang_project\DaChuang_App\model" />
+      <recent name="E:\DaChuang_project\DaChuang_App\ui" />
+      <recent name="E:\DaChuang_project\DaChuang_App\UI" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.App_model">
+    <configuration name="App_model" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DaChuang_App" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/model" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/model/App_model.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DaChuang_App" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.App_model" />
+        <item itemvalue="Python.main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-PY-242.21829.153" />
+        <option value="bundled-python-sdk-464836ebc622-b74155a9e76b-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.21829.153" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="474fc4b1-50fd-4972-a9a4-0563ed23a47e" name="更改" comment="" />
+      <created>1726734389795</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1726734389795</updated>
+      <workItem from="1726734394733" duration="5000" />
+      <workItem from="1726734611151" duration="112000" />
+      <workItem from="1726734731915" duration="40000" />
+      <workItem from="1726734781927" duration="7893000" />
+      <workItem from="1726748213943" duration="4000" />
+      <workItem from="1726748559300" duration="445000" />
+      <workItem from="1726761259427" duration="116000" />
+      <workItem from="1726913378756" duration="760000" />
+      <workItem from="1726915459135" duration="6716000" />
+      <workItem from="1726928223156" duration="2827000" />
+      <workItem from="1727017168715" duration="7484000" />
+      <workItem from="1727060977390" duration="7648000" />
+      <workItem from="1727073850179" duration="275000" />
+      <workItem from="1727076901939" duration="605000" />
+      <workItem from="1727089016642" duration="5629000" />
+      <workItem from="1727094847378" duration="2401000" />
+      <workItem from="1727097786071" duration="693000" />
+      <workItem from="1727191345255" duration="174000" />
+      <workItem from="1727336674995" duration="520000" />
+      <workItem from="1727401540024" duration="5223000" />
+      <workItem from="1727420149386" duration="7187000" />
+      <workItem from="1727434569582" duration="415000" />
+      <workItem from="1727439149846" duration="115000" />
+      <workItem from="1727439273637" duration="3818000" />
+      <workItem from="1727593801666" duration="7117000" />
+      <workItem from="1727614440810" duration="1239000" />
+      <workItem from="1730075551983" duration="4087000" />
+      <workItem from="1730188567332" duration="420000" />
+      <workItem from="1730189926362" duration="2683000" />
+      <workItem from="1730201704956" duration="1451000" />
+    </task>
+    <task id="LOCAL-00001" summary="Demo 1 For login and Profile Page">
+      <option name="closed" value="true" />
+      <created>1730201749966</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1730201749966</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Demo 1 For login and Profile Page">
+      <option name="closed" value="true" />
+      <created>1730201766861</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1730201766861</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Demo 1 For login and Profile Page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Demo 1 For login and Profile Page" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/DaChuang_App$Run_app.coverage" NAME="Run_app 覆盖结果" MODIFIED="1726926485142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Run_UI" />
+    <SUITE FILE_PATH="coverage/DaChuang_App$main2.coverage" NAME="main2 覆盖结果" MODIFIED="1730192949970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DaChuang_App$App.coverage" NAME="App 覆盖结果" MODIFIED="1726748798591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UI" />
+    <SUITE FILE_PATH="coverage/DaChuang_App$run_Test.coverage" NAME="run_Test 覆盖结果" MODIFIED="1726738939884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Run_UI" />
+    <SUITE FILE_PATH="coverage/DaChuang_App$main.coverage" NAME="main 覆盖结果" MODIFIED="1727594465738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DaChuang_App$run_App.coverage" NAME="run_App 覆盖结果" MODIFIED="1726748864017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Run_UI" />
+    <SUITE FILE_PATH="coverage/DaChuang_App$App_model.coverage" NAME="App_model 覆盖结果" MODIFIED="1727593967633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/model" />
+    <SUITE FILE_PATH="coverage/DaChuang_App$logic.coverage" NAME="logic 覆盖结果" MODIFIED="1727096964662" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/logic" />
+  </component>
+</project>
