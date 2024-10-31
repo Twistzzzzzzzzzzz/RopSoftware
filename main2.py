@@ -28,10 +28,10 @@ class RopClientLogin:
     def clear_content(self):
         self.ui.lineEdit_password.clear()
 
-    def go_to_main_page(self, user_name, user_password, user_info_path):
-        self.ui.hide()
-        main_page = RopClientMain(user_name, user_password, user_info_path)  # 保存实例
-        main_page.ui.show()
+    def go_to_main_page(self, user_name):
+        self.ui.close()  # 关闭当前页面
+        Client.page = RopClientMain(user_name)  # 保存实例
+        Client.page.ui.show()
 
 
     def login_register(self):
@@ -52,7 +52,7 @@ class RopClientLogin:
         if not os.path.exists(user_info_path):
             logic2.register_user(user_name, user_password, user_info_path)
             QMessageBox.information(self.ui, "提示", "注册成功！")
-            self.go_to_main_page(user_name, user_password, user_info_path)  # 切换页面
+            self.go_to_main_page(user_name)  # 切换页面
         else:
             # 若用户存在，则检查密码是否正确
             with open(os.path.join(user_info_path, 'user_info.json'), 'r') as f:
@@ -60,7 +60,8 @@ class RopClientLogin:
                 if user_info['user_password'] == user_password:
                     QMessageBox.information(self.ui, "提示", "登录成功！")
 
-                    self.go_to_main_page(user_name, user_password, user_info_path) # 切换页面
+                    # 切换页面
+                    self.go_to_main_page(user_name)
 
                 else:
                     QMessageBox.information(self.ui, "提示", "密码错误！")
@@ -68,30 +69,45 @@ class RopClientLogin:
                     self.ui.lineEdit_password.setFocus()
                     return
 
+
+class Page_Switcher:
+    def __init__(self):
+        self.page = RopClientLogin()
+
+
+
 class RopClientMain:
 
-    def __init__(self, user_name, user_password, user_info_path):
+    def __init__(self, user_name):
 
-        self.ui = uic.loadUi("ui/profile_page.ui")
-
+        self.ui = uic.loadUi("ui/main.ui")
         self.user_name = user_name
-        self.user_password = user_password
-        self.user_info_path = user_info_path
+
+        self.ui.editProfile_Button.clicked.connect(self.go_to_profile_page)
+
+    def go_to_profile_page(self):
+        self.ui.close()
+        Client.page = RopProfilePage(self.user_name)
+        Client.page.ui.show()
 
 class RopProfilePage:
 
-    def __init__(self):
+    def __init__(self, user_name):
         self.ui = uic.loadUi("ui/profile_page.ui")
 
-        self.ui.pushButton_cancel.clicked.connect(self.go_back)
+        self.ui.pushButton_cancel.clicked.connect(self.go_to_main_page)
         self.ui.pushButton_submit.clicked.connect(self.submit)
         self.ui.pushButton_avatar.clicked.connect(self.change_avatar)
         self.ui.pushButton_check_username.clicked.connect(self.check_username)
 
+        self.user_name = user_name
 
 
-    def go_back(self):
-        pass
+
+    def go_to_main_page(self):
+        self.ui.close()
+        Client.page = RopProfilePage(self.user_name)
+        Client.page.ui.show()
 
     def submit(self):
         pass
@@ -104,18 +120,7 @@ class RopProfilePage:
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 app = QApplication([])
-first_page = RopClientLogin()
-first_page.ui.show()
+Client = Page_Switcher()
+Client.page.ui.show()
 app.exec_()
